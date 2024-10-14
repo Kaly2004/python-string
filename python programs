@@ -1,0 +1,281 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNpYjlVv4tFXaT0pB2PSzYC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kaly2004/python-string/blob/main/python%20programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "using function math library"
+      ],
+      "metadata": {
+        "id": "E9TXNeKysT5_"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "7xzS3FBaJLjZ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "u2ayIdx_JMwo"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "a=math.sin(90)\n",
+        "b=math.cos(90)\n",
+        "c=math.tan(80)\n",
+        "print(a+b+c)\n",
+        "print(math.ceil(7.2))\n",
+        "print(math.floor(7.7))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b9BCkdwbsX0v",
+        "outputId": "b9a11e43-1d87-4f08-cc5b-d64be7a86eac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9.449577993078467\n",
+            "8\n",
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "factorial no"
+      ],
+      "metadata": {
+        "id": "zP-6UZsqxPVt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "def find_factorial():\n",
+        "  a = int(input(\"enter the no:\"))\n",
+        "  if a<0:\n",
+        "    print(\"not factorial\")\n",
+        "  elif a==a-z or a==A-Z:\n",
+        "    print(f\"alphabets not accept\")\n",
+        "  else:\n",
+        "      factorial=math.factorial(a)\n",
+        "      print(f\"factorial of {a}is:{factorial}\")\n",
+        "find_factorial()\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "ngFZblHgxShk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "user defined function"
+      ],
+      "metadata": {
+        "id": "JWXTcfh4JOjP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def greet():\n",
+        "  print(\"im abhi\")\n",
+        "  print(\"im pursuing mca ds\")\n",
+        "  print(\"bca graduate\")\n",
+        "  print(\"want to sleep\")\n",
+        "greet()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VWAZE3HIJRjk",
+        "outputId": "9e9695bc-af3c-446d-d044-cf14e8a5423f"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "im abhi\n",
+            "im pursuing mca ds\n",
+            "bca graduate\n",
+            "want to sleep\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "greet()\n",
+        "print(\"sandhiya\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pkI2uL5gKB1Y",
+        "outputId": "9d270e82-946b-414c-a4da-6dde16507186"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "im abhi\n",
+            "im pursuing mca ds\n",
+            "bca graduate\n",
+            "want to sleep\n",
+            "sandhiya\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(3):\n",
+        "  greet()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q2vwWkYoQHr5",
+        "outputId": "41d1b5f6-5698-474b-bbfb-9d31d431eda8"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "im abhi\n",
+            "im pursuing mca ds\n",
+            "bca graduate\n",
+            "want to sleep\n",
+            "im abhi\n",
+            "im pursuing mca ds\n",
+            "bca graduate\n",
+            "want to sleep\n",
+            "im abhi\n",
+            "im pursuing mca ds\n",
+            "bca graduate\n",
+            "want to sleep\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def abc():\n",
+        "  print(\"looking good\")\n",
+        "def efg():\n",
+        "  greet()"
+      ],
+      "metadata": {
+        "id": "0bk_IgDJQoex"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "check odd or even no"
+      ],
+      "metadata": {
+        "id": "JmlslAiTRB8m"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "\n",
+        "a=int(input(\"enter a number:\"))\n",
+        "if a%2==0:\n",
+        "  print(\"it is even\")\n",
+        "else:\n",
+        "  print(\"it is odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MiHGs_F7RJdo",
+        "outputId": "f86953d5-d76a-4393-d75e-81778d894007"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number:4\n",
+            "it is even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "CJ-Bsmq0S_4e"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
